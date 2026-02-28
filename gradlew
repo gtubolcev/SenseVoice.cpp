@@ -1,3 +1,2 @@
 #!/bin/sh
-DIR="$(cd "$(dirname "$0")" && pwd)"
-exec "$DIR/gradle-dist/bin/gradle" "$@"
+exec gradle "$@"
