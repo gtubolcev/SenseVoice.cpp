@@ -3,3 +3,7 @@
 gradle.zip
 gradle-dist/
 *.bin
+
+gradle.zip
+gradle-dist/
+*.bin
