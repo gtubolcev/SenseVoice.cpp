@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.22)
+project(sensevoice)
+add_library(sensevoice-lib SHARED sensevoice.cpp)
+find_library(log-lib log)
+target_link_libraries(sensevoice-lib ${log-lib})
