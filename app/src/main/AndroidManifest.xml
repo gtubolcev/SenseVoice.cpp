@@ -1,1 +1,12 @@
-<manifest package="com.example.sensevoice"><application android:label="SenseVoice" android:hasCode="true"/></manifest>
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.sensevoice">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:label="SenseVoice"
+        android:hasCode="true"
+        android:extractNativeLibs="true">
+    </application>
+
+</manifest>
